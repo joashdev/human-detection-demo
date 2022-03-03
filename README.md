@@ -2,6 +2,7 @@
 
 - [Pedestrian Detection Demo](#pedestrian-detection-demo)
   - [Description](#description)
+  - [Contributors](#contributors)
   - [How to run](#how-to-run)
   - [Helpful Notes](#helpful-notes)
 ## Description
@@ -12,16 +13,19 @@ This demo is implemented using `Histograms of Oriented Gradients (HOG)` that is 
 
 ![Sliding Window Concept Visualization](img/sliding_window_example.gif)
 
+
+## Contributors
+
 - Jett Adriel Rabe
 - Kent Joash Zamudio [(@github/joashdev)](https://github.com/joashdev)
 
 ## How to run
 ```sh
 # clone repository
-git clone somerepo
+git clone git@github.com:joashdev/human-detection-demo.git
 
 # goto the directory of cloned repository
-cd somerepo
+cd human-detection-demo
 
 # run using python3
 python3 detect.py
